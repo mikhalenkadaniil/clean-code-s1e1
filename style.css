@@ -32,20 +32,26 @@
   display: inline-block;
   flex-grow: 1;
 }
-.add-task-form, .task__name-label, .task__name-input {
+.add-task-form,
+.task__name-label,
+.task__name-input {
   display: flex;
 }
 ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input,button{
+input,
+button{
   outline: none;
 }
-.add-task-form__add-btn, .task__edit-btn, .task__del-btn {
+.add-task-form__add-btn,
+.task__edit-btn,
+.task__del-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -54,7 +60,9 @@ input,button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.add-task-form__add-btn:hover, .task__edit-btn:hover, .task__del-btn:hover {
+.add-task-form__add-btn:hover,
+.task__edit-btn:hover,
+.task__del-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -67,7 +75,8 @@ input,button{
   margin: 0;
   text-transform: uppercase;
 }
-.add-task-form__input, .task__name-input {
+.add-task-form__input,
+.task__name-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -79,7 +88,8 @@ input,button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.add-task-form__input:focus, .task__name-input:focus {
+.add-task-form__input:focus,
+.task__name-input:focus {
   color: #333;
 }
 
