@@ -27,7 +27,7 @@
   width: 500px;
   margin: 0 auto 0;
 }
-.add-task-form__input {
+.add-task-form__name-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -75,7 +75,7 @@ button{
   margin: 0;
   text-transform: uppercase;
 }
-.add-task-form__input,
+.add-task-form__name-input,
 .task__name-input {
   margin: 0;
   font-size: 18px;
@@ -88,7 +88,7 @@ button{
   font-family: Lato, sans-serif;
   color: #888;
 }
-.add-task-form__input:focus,
+.add-task-form__name-input:focus,
 .task__name-input:focus {
   color: #333;
 }
@@ -98,7 +98,7 @@ button{
   display: block;
   margin: 0 0 20px;
 }
-.add-task-form__input {
+.add-task-form__name-input {
   width: 318px;
 }
 
