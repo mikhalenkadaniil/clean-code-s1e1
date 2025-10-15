@@ -30,7 +30,7 @@
 .add-task-form__input {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add-task-form, .task__name-label, .task__name-input {
   display: flex;
@@ -116,7 +116,7 @@ input,button{
   width: 226px;
 }
 .task__name-input {
-  width: 226px
+  width: 226px;
 }
 .task__remove-icon {
   height: 2em;
@@ -129,18 +129,18 @@ input,button{
 
 /* Completed */
 .task__name-label_done {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task__name-input {
-  display: none
+  display: none;
 }
 
 .task_edit-mode .task__name-input {
   display: inline-block;
-  width:224px
+  width:224px;
 }
 
 .task_edit-mode .task__name-label {
