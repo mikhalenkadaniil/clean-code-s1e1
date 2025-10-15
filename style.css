@@ -138,7 +138,7 @@ button{
 }
 
 /* Completed */
-.task__name-label_done {
+.task__is-complete-input:checked ~ .task__name-label {
   text-decoration: line-through;
   color: #888;
 }
