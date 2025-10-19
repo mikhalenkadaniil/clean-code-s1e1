@@ -156,3 +156,7 @@ button{
 .task_edit-mode .task__name-label {
   display: none;
 }
+
+.todo-list__h1 {
+  display: none;
+}
