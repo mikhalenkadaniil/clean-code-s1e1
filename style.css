@@ -148,12 +148,12 @@ button{
   display: none;
 }
 
-.task_edit-mode .task__name-input {
+.task_mode_edit .task__name-input {
   display: inline-block;
   width:224px;
 }
 
-.task_edit-mode .task__name-label {
+.task_mode_edit .task__name-label {
   display: none;
 }
 
