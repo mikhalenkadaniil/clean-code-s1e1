@@ -49,9 +49,9 @@ input,
 button{
   outline: none;
 }
-.add-task-form__add-btn,
-.task__edit-btn,
-.task__del-btn {
+.add-task-form__add-button,
+.task__edit-button,
+.task__del-button {
   background: none;
   border: 0px;
   color: #888;
@@ -60,13 +60,13 @@ button{
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
-.add-task-form__add-btn:hover,
-.task__edit-btn:hover,
-.task__del-btn:hover {
+.add-task-form__add-button:hover,
+.task__edit-button:hover,
+.task__del-button:hover {
   color: #3a3a3a;
 }
 /* Heading */
-.todo-list__sct-h {
+.todo-list__section-h {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -94,7 +94,7 @@ button{
 }
 
 /* New Task */
-.todo-list__sct-h {
+.todo-list__section-h {
   display: block;
   margin: 0 0 20px;
 }
